@@ -19,14 +19,14 @@ ul {
     display: flex;
     list-style-type: none;
     margin-right: 144px;
-    gap: 24px;
+    gap: 15px;
 }  
 
 a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-    margin: 24px;
+    margin: 15px;
 }
 
 .hero-container {
@@ -72,4 +72,34 @@ button {
 
 #squiggle {
     margin-right: 144px;
+}
+
+.illustration-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 24px 0 0 0;
+}
+
+.illustration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
 }
